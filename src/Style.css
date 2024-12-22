@@ -1,0 +1,17 @@
+.laptopDetails{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.laptopDetails img{
+    width: 400px;
+    height: 400px;
+    margin: 15px;
+}
+
+.laptopDetails p{
+    font-size: 20px;
+}
