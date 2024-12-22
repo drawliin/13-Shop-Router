@@ -1,5 +1,5 @@
 import React from 'react'
-import {useParams} from 'react-router-dom';
+import {useParams, Link} from 'react-router-dom';
 import './Style.css'
 
 export const LaptopDetails = ({laptops}) => {
@@ -16,6 +16,8 @@ export const LaptopDetails = ({laptops}) => {
             <h1>{laptop.title}</h1>
             <img src={laptop.image}/>
             <p>{laptop.price}</p>
+            <Link to='/' >Return Home</Link>
+            
         </div>
     )
 }
